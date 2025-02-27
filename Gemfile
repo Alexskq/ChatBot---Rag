@@ -22,7 +22,7 @@ gem "stimulus-rails"
 
 gem "ruby-openai"
 gem "actioncable-enhanced-postgresql-adapter"
-gem 'solid_queue', '~> 0.9.0'
+gem 'solid_queue', '~> 1.1.3'
 
 gem 'neighbor'
 
