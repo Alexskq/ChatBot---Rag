@@ -1,2 +1,11 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container mx-auto d-flex justify-content-center align-items-center" style="min-height: 50vh";>
+  <div class="text-center">
+    <h1 class="text-5xl font-bold">Welcome to</h1>
+    <%= image_tag "baber.png", alt: "text", class: "max-w-full h-auto" %>
+  </div>
+</div>
+<div class="container mx-auto d-flex justify-content-center align-items-center text-4xl">
+
+  <%= link_to "Visit shop", products_path, class: "btn btn-primary" %>
+
+</div>

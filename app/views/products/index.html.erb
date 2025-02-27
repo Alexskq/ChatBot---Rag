@@ -1,0 +1,19 @@
+<div class="container">
+
+  <p style="color: green"><%= notice %></p>
+
+  <% content_for :title, "Products" %>
+
+  <h1>Products</h1>
+
+  <div id="products" class=" d-flex flex-wrap gap-3">
+    <% @products.each do |product| %>
+      <%= render product %>
+
+    <% end %>
+  </div>
+
+  <%= link_to "New product", new_product_path, class:"btn btn-primary mt-4" %>
+  <%= link_to "Discuss with IA", questions_path, class:"btn btn-primary mt-4" %>
+
+</div>

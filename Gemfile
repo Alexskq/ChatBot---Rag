@@ -15,9 +15,19 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
+# gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
+
+
+gem "ruby-openai"
+gem "actioncable-enhanced-postgresql-adapter"
+gem 'solid_queue', '~> 0.9.0'
+
+gem 'neighbor'
+
+
+
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
