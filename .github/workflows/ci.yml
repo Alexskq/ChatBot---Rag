@@ -89,7 +89,7 @@ jobs:
         env:
           RAILS_ENV: test
           DATABASE_URL: postgres://postgres:postgres@localhost:5432
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_ACCESS_TOKEN }}
 
           # REDIS_URL: redis://localhost:6379/0
         run: bin/rails db:test:prepare test test:system
