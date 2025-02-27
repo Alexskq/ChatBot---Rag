@@ -1,0 +1,11 @@
+one:
+  name: "Sample Product"
+  description: "This is a sample product"
+  price: 9.99
+  embedding: <%= Array.new(1536, 0.1).to_json %>
+
+two:
+  name: "Another Product"
+  description: "This is another product"
+  price: 19.99
+  embedding: <%= Array.new(1536, 0.2).to_json %>
